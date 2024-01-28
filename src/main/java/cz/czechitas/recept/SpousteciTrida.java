@@ -15,6 +15,8 @@ import cz.czechitas.recept.suroviny.Vajicka;
 public class SpousteciTrida {
 
   public static void main(String[] args) {
+    //celeJmeno("František", "Novak")
+
     Miska cervenaMiska;
     Miska zlutaMiska;
     Mixer mixer;
@@ -50,6 +52,13 @@ public class SpousteciTrida {
     // Vyskakuje samo nebo pomoci Ctrl+Mezernik
 
     cervenaMiska.nalozSiJedenKus(vajicka);
+  }
+
+  boolean miskaMaSpravnouVahu = (zlutaMiska.getHmotnost() ==250);
+  while(!miskaMaSpravnouVahu) {
+    if(zlutaMiska)
+    }
+
   }
 
 }
